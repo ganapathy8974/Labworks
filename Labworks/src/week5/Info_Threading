@@ -1,1 +1,15 @@
 This is Multithreading lab Works
+--------------------------------
+(Class File Name - Question from lab book)
+
+1) EvenOdd - Write a program which will create two threads one to display even and other to
+			 display odd numbers from 1 to 100.
+		  
+2) SyncMethod - Write a program to give synchronized access to multiple thread each with
+				different message to display method which formats the message in the following manner.
+				“[-----Message----]”
+				
+3) InventorySystem - Write a program to implement inventory System in which two threads called
+					 Producer will add one product in the Inventory and other thread Consumer will
+					 consume product from inventory. Thread should communicate in such a way
+					 that, there should be maximum one product and minimum zero products in the inventory.
