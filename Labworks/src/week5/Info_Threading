@@ -13,3 +13,11 @@ This is Multithreading lab Works
 					 Producer will add one product in the Inventory and other thread Consumer will
 					 consume product from inventory. Thread should communicate in such a way
 					 that, there should be maximum one product and minimum zero products in the inventory.
+					 
+4) DigitalClock - Write a program which displays a digital clock.
+
+5) ThreadAnlz - Write a program to demonstrate that the once a thread is started can never be
+				started again. Try and analyze the result.
+
+6) CharPassing - Write a class that keeps a running total of all characters passed to it (one at a time)
+				 and throws an exception if it passes a non-alphabetic character.
