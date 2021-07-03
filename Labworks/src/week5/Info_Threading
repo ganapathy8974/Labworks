@@ -21,3 +21,27 @@ This is Multithreading lab Works
 
 6) CharPassing - Write a class that keeps a running total of all characters passed to it (one at a time)
 				 and throws an exception if it passes a non-alphabetic character.
+				 
+7) CountingDemo - Create a simple counting thread. It will count to 100, pausing one second
+			  	 between each number. Also, in keeping with the counting theme, it will output
+				 a string for every ten numbers.			
+
+8) ThreadClassDemo - Create a class and extend the Thread class.Override the run() method of Thread. This is where the synchronized block of code will go. 
+					 For our three thread objects to share the same object, we will need to create a constructor that accepts a StringBuffer object in the argument. 
+					 The synchronized 100 times and then increment the letter in the StringBuffer. Finally, in the main() method, 
+					 create a single StringBuffer object using the letter A, then create three instances of our class and starts all three of them.
+					 
+9) StringUpperCase - Write a program to access command line arguments and convert string arguments into upper cases.
+
+10) Tax - Sales tax in the city is 5.25%. Write a program that accepts a price on the command line and prints out the appropriate tax and total purchase price.
+		  (After proper conversion from string to double).
+		  
+11) TaxMultiple - Modify the above program to get number of prices, total them, find the sales tax and calculate the total amount.
+
+12) FileExtenstionChange - Write a program which gets a filename as command line argument and change the extension of the file. (Use lastIndexOf, substring functions).
+
+13) TextCaseConverstion - Write a program to get a character from user and display whether it is a letter (lowercase/uppercase) or digit or space.
+
+14) BinaryConverstion - Write a program to convert into to binary, hexadecimal and octal.
+
+15) Try to run and understand the code and use the instance of the operator
